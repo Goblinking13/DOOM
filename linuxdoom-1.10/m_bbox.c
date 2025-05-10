@@ -34,7 +34,10 @@ rcsid[] = "$Id: m_bbox.c,v 1.1 1997/02/03 22:45:10 b1 Exp $";
 #include "m_bbox.h"
 
 
-
+//*** from doomtype.h
+static const int MAXINT	 = ((int)0x7fffffff);
+static const int  MININT = ((int)0x80000000);
+//***
 
 void M_ClearBox (fixed_t *box)
 {

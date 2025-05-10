@@ -38,8 +38,8 @@ typedef unsigned char byte;
 
 
 // Predefined with some OS.
-#ifdef LINUX
-#include <values.h>
+//#ifdef LINUX
+#include <limits.h>
 #else
 #define MAXCHAR		((char)0x7f)
 #define MAXSHORT	((short)0x7fff)
@@ -58,7 +58,7 @@ typedef unsigned char byte;
 
 
 
-#endif
+//#endif
 //-----------------------------------------------------------------------------
 //
 // $Log:$

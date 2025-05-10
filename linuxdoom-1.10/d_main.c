@@ -799,8 +799,10 @@ void D_DoomMain (void)
     char                    file[256];
 
     FindResponseFile ();
+  printf("AllFilesFound\n");
 	
     IdentifyVersion ();
+  printf("versionIdentified\n");
 	
     setbuf (stdout, NULL);
     modifiedgame = false;
